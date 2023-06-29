@@ -29,7 +29,6 @@ module switchlight(
     output reg [7:0] LED
     );
     reg [31:0] counter;
-    reg [6:0] segHOLDER;
     localparam bit1 = 1'b1;
     
     always@(posedge CLK100MHZ) begin
