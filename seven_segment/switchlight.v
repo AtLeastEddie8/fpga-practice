@@ -41,7 +41,6 @@ module switchlight(
         end
         else begin
             counter <= counter + 1'b1;
-            segHOLDER <= seg;
             if(counter[24])begin
                 LED <= LED + 1'b1;
                 seg <= seg - 1'b1;
